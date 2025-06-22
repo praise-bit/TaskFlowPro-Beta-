@@ -1,0 +1,6 @@
+services:
+  types: web
+  name: taskflowpro
+  env: static
+  buildcommand: npm run build
+  staticPublishPath: build
